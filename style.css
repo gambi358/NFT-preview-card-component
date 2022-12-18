@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Outfit, san-serif;
+	font-size: 18px;
+	width: 1440px;
+	background-color: hsl(217, 54%, 11%);
+	margin: 0 auto;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container {
+	width: 300px;
+	height: 70vh;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
+}
+
+.imgcontainer {
+	border-radius: 10px;
+	width: 100%;
+	height: 55%;
+	background-image: url("images/image-equilibrium.jpg");
+	background-size: contain;
+}
+
+.imgcontainer:hover .svg{
+
+	display: flex;
+
+}
+
+.svg {
+	display:none;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: hsl(178, 100%, 50%, 0.5);
+	border-radius: 10px;
+	cursor: pointer;
+
+
+}
+
+
+h1 {
+	font-size: 18px;
+	color: #fff;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.description {
+	color: hsl(215, 51%, 70%);
+	font-size: 14px;
+}
+
+.container ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+
+}
+
+.container li:first-child {
+	color: hsl(178, 100%, 50%);
+	display: inline-block;
+	height: 15px;
+}
+
+.container li:last-child {
+	color: hsl(215, 51%, 70%);
+	display: inline-block;
+	height: 15px;
+
+
+}
+
+.ether {
+	background-image: url("images/icon-ethereum.svg");
+	height: 17px;
+  	width: 11px;
+  	display: inline-block;
+  	background-size: contain;
+  	vertical-align: middle;
+  	scale: 0.8;
+  	margin-right: 2px;
+
+}
+
+.clock {
+	background-image: url("images/icon-clock.svg");
+	height: 17px;
+  	width: 15px;
+  	display: inline-block;
+  	background-size: contain;
+  	vertical-align: middle;
+  	margin-right: 2px;
+
+}
+
+hr {
+	color: hsl(215, 32%, 27%);
+	border-top: 1px;
+}
+
+.avatar {
+	display: flex;
+	align-items: center;
+	color: hsl(215, 51%, 70%);
+	font-size: 12px;
+
+}
+
+.avatar p {
+	margin-left: 15px;
+}
+
+.avatar a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.avatar img {
+	height: 27px;
+	width: 27px;
+}
+
+.avatarbg {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+
+
+}
+
+
+@media screen and (max-width: 992px) { 
+
+body {
+	width: 375px;
+}
+
+
+	}
